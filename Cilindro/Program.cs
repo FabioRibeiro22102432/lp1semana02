@@ -14,11 +14,11 @@ namespace Cilindro
 
             Console.WriteLine("Coloque a altura: ");
 
-            altura = Console.ReadLine();
+            altura = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Coloque o raio: ");
 
-            raio = Console.ReadLine();
+            raio = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine($"O volume é: {volume}");
             Console.WriteLine($"A área da superficie é: {superficie}");
